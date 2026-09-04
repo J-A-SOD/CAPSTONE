@@ -11,9 +11,22 @@ Setup and tutorial goes here
 
 Software used in the creation of this project include:
 
+Project Management
+- Notion
+
 Design Work
 - Blender - v5.xxx
 - Affinity - v1.X
+
+Sound Design
+- Reaper
+- Musescore
+
+Plugins
+- DearVR
+- Vital
+- MuseFX
+
 
 Developement
 - Unity - Vxxx
