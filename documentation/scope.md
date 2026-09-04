@@ -67,3 +67,10 @@ Need to nail down the narrative or underlying story beats/motifs for the scenes
 what type of story, what each scene does to progress the story, what is the point
 
 Potentially good at documenting a lived experience...
+
+Deliverables
+- Diagrams
+    Story beats and general flow
+        Auditory connection to this
+    Scenes/Levels
+    Tech?
