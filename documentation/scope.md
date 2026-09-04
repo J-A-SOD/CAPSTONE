@@ -4,7 +4,7 @@
 
 **Course Code:** MUSC 420
 
-**Temp Name:** CAPSTONE
+**Temp Name:** CAPSTONE (TBC)
 
 ## PROJECT CONTRIBUTORS
 
