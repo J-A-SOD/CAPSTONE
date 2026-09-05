@@ -48,7 +48,7 @@ docs could also be hosted on github pages for easier reading and access, along w
 
 
 
-CORE RESEARCH GOALS
+CORE GOALS
 - Improve and expand on the ways soundscapes and audio environments are created, exploring technical ways to improve them and make them much more immersive
 - Use audio as the primary storytelling device/narrative device, keeping environments more abstract or letting the sound influence how the user percieves the environments
 - Allow users to explore/have agency on their experience in the virtual space
