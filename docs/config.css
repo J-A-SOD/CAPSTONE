@@ -1,25 +1,48 @@
-/* USE THIS FILE TO EDIT GENERAL SITE AESTHETICS QUICKER */
+/* WILL USE THIS FILE TO EDIT GENERAL SITE AESTHETICS QUICKER */
 
 :root {
     
     /* CONSTANTS */
-    --BgColour01: hsl(284, 54%, 18%);
-    --BgColour02: hsl(260, 13%, 9%);
+    --BgColour01: hsl(283, 57%, 46%);
+    --BgColour02: hsl(137, 35%, 58%);
 
     /* HEADER VALUES */
     --HeaderFill: hsla(90, 85%, 47%, 0.403);
+    --HeaderBorderRadius: 10px;
     --HeaderBorderColour: hsl(0, 61%, 49%);
     --HeaderBorderThickness: 2px;
     --HeaderBlur: 8px;
-    --HeaderFont: Satoshi;
-    --HeaderFontWeight: 400;
-    --HeaderFontSize: 16px;
+    --HeaderFont: "Satoshi";
+    
+    --LogoFontWeight: 400;
+    --LogoFontSize: 16px;
 
-    --HeaderFontWeight: 400;
-    --HeaderFontSize: 16px;
+    --SearchFill: hsl(211, 66%, 49%);
+    --SearchFontColour: hsl(0, 71%, 49%);
+    --SearchFontSize: 10px;
+    --SearchBorderThickness: 6px;
+    --SearchBorderColour: hsl(325, 82%, 40%);
+    --SearchBorderRadius: 20px;
 
-    /* ASCII PREVIEW SCREEN */
-    --XXX: hsl(0, 100%, 100%);
+    /* Sidebar */
+    --SidebarWidth: 20vw;
+    --SidebarBlur: 20px;
+    --SidebarLineWidth: 2px;
+    --SidebarLineColour: hsl(0, 11%, 54%);
 
+    --SubtitleFont: "Zodiak";
+    --SubtitleFontSize: 20px;
+    --SubtitleFontWeight: 100;
+    --SubtitleFontColour: hsl(62, 69%, 49%);
+
+    --LinkFont: "Satoshi";
+    --LinkFontSize: 10px;
+    --LinkFontWeight: 900;
+    --LinkFontColour: hsl(0, 74%, 40%);
+
+    --LinkHoverBackgroundColour: hsl(0, 74%, 40%);
+    --LinkHoverColour: hsl(0, 74%, 40%);
+    --LinkActiveBackgroundColour: hsl(0, 74%, 40%);
+    --LinkActiveColour: hsl(0, 74%, 40%);
 
 }
