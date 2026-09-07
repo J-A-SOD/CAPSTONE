@@ -46,7 +46,7 @@
     --LinkActiveBackgroundColour: hsl(0, 74%, 40%);
     --LinkActiveColour: hsl(0, 74%, 40%);
 
-    /* MD Content */
+    /* MD Content text formatting and styles*/
     --Content-Font: "Satoshi";
     
     --Content-Header-Colour: ;
@@ -78,5 +78,19 @@
     --Content-Code-Background: hsl(0, 11%, 14%) ;
     --Content-Code-BorderColour: ;
     --Content-Code-BorderWeight: ;
+    --Content-Code-Radius: ;
+    --Content-Code-MarginBottom: ;
+    --Content-Code-FontSize: ;
+
+    --Content-InlineCode-Background: ;
+    --Content-InlineCode-Radius: ;
+
+    --Content-Blockquote-LineColour: ;
+    --Content-Blockquote-LineThickness: ;
+    --Content-Blockquote-MarginBottom: ;
+    --Content-Blockquote-Colour: ;
+
+
+
 
 }
