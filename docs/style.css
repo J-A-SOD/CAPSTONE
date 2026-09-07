@@ -164,3 +164,119 @@ header {
   font-weight: 900;
 }
 
+/* MD File Content */
+
+.content {
+  font-family: var(--Content-Font);
+}
+
+.content h1 {
+  font-size: var(--Content-Header1-Size);
+  font-weight: var(--Content-Header1-Weight);
+  margin-bottom: var(--Content-Header1-Margin);
+  color: var(--Content-Header-Colour);
+}
+
+.content h2 {
+  font-size: var(--Content-Header2-Size);
+  font-weight: var(--Content-Header2-Weight);
+  margin: var(--Content-Header2-MarginTop), 0, var(--Content-Header2-MarginBottom);
+}
+
+.content h3 {
+  font-size: var(--Content-Header3-Size);
+  font-weight: var(--Content-Header3-Weight);
+  margin: var(--Content-Header3-MarginTop), 0, var(--Content-Header3-MarginBottom);
+}
+
+.content p {
+  font-size: var(--Content-Paragraph-Size);
+  line-height: 1.6;
+  color: var(--Content-Paragraph-Colour);
+  max-width: var(--Content-Paragraph-MaxWidth);
+  margin-bottom: var(--Content-Paragraph-MarginBottom);
+}
+
+.content a {
+  color: var(--Content-Links-Colour);
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+  color: var(--Content-Links-HoverColour);
+}
+
+.content strong {
+  color: var(--Content-Bold-Colour);
+  font-weight: var(--Content-Bold-Weight);
+}
+
+.content em {
+  font-style: italic;
+}
+
+.content pre {
+  background: var(--Content-Code-Background);
+  border: var(--Content-Code-BorderWeight) solid var(--Content-Code-BorderColour);
+  border-radius: 8px;
+  padding: 14px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+}
+
+.content code {
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+}
+
+.content p code {
+  background: rgba(255,255,255,0.06);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.content blockquote {
+  border-left: 3px solid #7c7ce6;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  color: #b0b0b8;
+  font-style: italic;
+}
+
+.content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.content th,
+.content td {
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.content th {
+  background: rgba(255,255,255,0.03);
+  font-weight: 600;
+}
+
+.content ul,
+.content ol {
+  margin: 0 0 16px 20px;
+  color: #b0b0b8;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.content li {
+  margin-bottom: 4px;
+}
+
+.content img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
