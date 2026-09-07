@@ -4,111 +4,112 @@
 :root {
     
     /* CONSTANTS */
-    --BaseColour: hsla(0, 47%, 47%, 0.545);
-    --HeaderBackground: hsla(90, 85%, 47%, 0.403);
-    --ContentBackground: hsla(266, 49%, 48%, 0.752);
-    --SidebarBackground: hsla(0, 73%, 49%, 0.405) ;
+    --BaseColour: hsl(0, 0%, 0%);
+    --HeaderBackground: hsla(244, 41%, 7%, 0.662);
+    --ContentBackground: hsla(247, 24%, 14%, 0.603);
+    --SidebarBackground: hsla(240, 18%, 10%, 0.603);
 
     /* HEADER VALUES */
     --HeaderBorderRadius: 10px;
-    --HeaderBorderColour: hsl(0, 61%, 49%);
-    --HeaderBorderThickness: 2px;
-    --HeaderBlur: 8px;
+    --HeaderBorderColour: hsla(248, 19%, 68%, 0.412);
+    --HeaderBorderThickness: 1px;
+    --HeaderBlur: 12px;
     --HeaderFont: "Satoshi";
     
-    --LogoFontWeight: 400;
-    --LogoFontSize: 16px;
+    --LogoFontWeight: 900;
+    --LogoFontSize: 20px;
 
-    --SearchFill: hsl(211, 66%, 49%);
-    --SearchFontColour: hsl(0, 71%, 49%);
+    --SearchFill: hsla(252, 35%, 20%, 0.401);
+    --SearchFontColour: hsl(229, 21%, 79%);
     --SearchFontSize: 10px;
-    --SearchBorderThickness: 6px;
-    --SearchBorderColour: hsl(325, 82%, 40%);
-    --SearchBorderRadius: 20px;
+    --SearchBorderThickness: 1px;
+    --SearchBorderColour: rgba(196, 193, 221, 0.484);
+    --SearchBorderRadius: 10px;
 
     /* Sidebar */
     --SidebarWidth: 20vw;
-    --SidebarBlur: 20px;
-    --SidebarBorderWidth: 2px;
-    --SidebarBorderColour: hsl(0, 11%, 54%);
-    --SidebarRadius: 20px;
+    --SidebarBlur: 12px;
+    --SidebarBorderWidth: 1px;
+    --SidebarBorderColour: hsla(0, 0%, 100%, 0.46);
+    --SidebarRadius: 10px;
 
-    --SubtitleFont: "Zodiak";
+    --SubtitleFont: "Satoshi";
     --SubtitleFontSize: 20px;
-    --SubtitleFontWeight: 100;
-    --SubtitleFontColour: hsl(62, 69%, 49%);
+    --SubtitleFontWeight: 600;
+    --SubtitleFontColour: hsl(258, 20%, 84%);
 
     --LinkFont: "Satoshi";
     --LinkFontSize: 10px;
     --LinkFontWeight: 900;
-    --LinkFontColour: hsl(0, 74%, 40%);
+    --LinkFontColour: hsl(250, 26%, 87%);
 
-    --LinkHoverBackgroundColour: hsl(0, 74%, 40%);
-    --LinkHoverColour: hsl(0, 74%, 40%);
-    --LinkActiveBackgroundColour: hsl(0, 74%, 40%);
-    --LinkActiveColour: hsl(0, 74%, 40%);
+    --LinkHoverBackgroundColour: hsla(262, 27%, 82%, 0.426);
+    --LinkHoverColour: hsl(251, 7%, 54%);
+    --LinkActiveBackgroundColour: hsla(247, 25%, 47%, 0.489);
+    --LinkActiveColour: hsl(242, 55%, 75%);
 
     /* MD Content text formatting and styles*/
     --Content-Font: "Satoshi";
-    --Content-BorderWeight: 10px;
-    --Content-BorderColour: hsl(301, 71%, 48%);
-    --Content-Radius: 20px;
+    --Content-BorderWeight: 1px;
+    --Content-BorderColour: rgba(196, 193, 221, 0.484);
+    --Content-Radius: 10px;
 
     --Content-Blur: 8px;
 
-    --Content-Header-Colour: ;
+    --Content-Header-Colour: rgb(212, 212, 224);
 
-    --Content-Header1-Size: ;
-    --Content-Header1-Weight: ;
-    --Content-Header1-Margin: ;
+    --Content-Header1-Size: 36px;
+    --Content-Header1-Weight: 700;
+    --Content-Header1-Margin: 24px;
 
-    --Content-Header2-Size: ;
-    --Content-Header2-Weight: ;
-    --Content-Header2-MarginTop: ;
+    --Content-Header2-Size: 28px;
+    --Content-Header2-Weight: 600;
+    --Content-Header2-MarginTop: 18px;
 
-    --Content-Header3-Size: ;
-    --Content-Header3-Weight: ;
-    --Content-Header3-MarginTop: ;
-    --Content-Header3-MarginBottom: ;
+    --Content-Header3-Size: 24px;
+    --Content-Header3-Weight: 500;
+    --Content-Header3-MarginTop: 16px;
+    --Content-Header3-MarginBottom: 12px;
 
-    --Content-Paragraph-Size: ;
-    --Content-Paragraph-Colour: ;
-    --Content-Paragraph-MaxWidth: ;
-    --Content-Paragraph-MarginBottom: ;
+    --Content-Paragraph-Size: 18px;
+    --Content-Paragraph-Colour: rgb(203, 203, 215);
+    --Content-Paragraph-MaxWidth: 80vw;
+    --Content-Paragraph-MarginBottom: 12px;
+    --Content-Paragraph-Weight: 200;
 
-    --Content-Links-Colour: ;
-    --Content-Links-HoverColour: ;
+    --Content-Links-Colour: rgb(203, 203, 215);
+    --Content-Links-HoverColour: rgb(247, 247, 255);
 
-    --Content-Bold-Colour: ;
-    --Content-Bold-Weight: ;
+    --Content-Bold-Colour: rgb(203, 203, 215);
+    --Content-Bold-Weight: 600;
 
-    --Content-Code-Background: hsl(0, 11%, 14%) ;
-    --Content-Code-BorderColour: ;
-    --Content-Code-BorderWeight: ;
-    --Content-Code-Radius: ;
-    --Content-Code-MarginBottom: ;
-    --Content-Code-FontSize: ;
+    --Content-Code-Background: hsl(263, 11%, 14%);
+    --Content-Code-BorderColour: hsl(240, 4%, 31%);
+    --Content-Code-BorderWeight: 2px;
+    --Content-Code-Radius: 10px;
+    --Content-Code-MarginBottom: 16px;
+    --Content-Code-FontSize: 14px;
 
-    --Content-InlineCode-Background: ;
-    --Content-InlineCode-Radius: ;
+    --Content-InlineCode-Background: hsl(263, 11%, 14%);
+    --Content-InlineCode-Radius: 10px;
 
-    --Content-Blockquote-LineColour: ;
-    --Content-Blockquote-LineThickness: ;
-    --Content-Blockquote-MarginBottom: ;
-    --Content-Blockquote-Colour: ;
+    --Content-Blockquote-LineColour: rgb(107, 107, 190);
+    --Content-Blockquote-LineThickness: 6px;
+    --Content-Blockquote-MarginBottom: 12px;
+    --Content-Blockquote-Colour: rgb(203, 203, 215);
 
-    --Content-Table-Width: ;
-    --Content-Table-MarginBottom: ;
-    --Content-Table-FontSize: ;
+    --Content-Table-Width: 70vw;
+    --Content-Table-MarginBottom: 12px;
+    --Content-Table-FontSize: 16px;
     
-    --Content-Table-BorderThickness: ;
-    --Content-Table-BorderColour: ;
-    --Content-Table-Background: ;
-    --Content-Table-HeaderWeight: ;
+    --Content-Table-BorderThickness: 2px;
+    --Content-Table-BorderColour: hsl(240, 4%, 31%);
+    --Content-Table-Background: hsl(263, 11%, 14%);
+    --Content-Table-HeaderWeight: 800;
 
-    --Content-List-Colour: ;
-    --Content-List-FontSize: ;
+    --Content-List-Colour: rgb(203, 203, 215);
+    --Content-List-FontSize: 18px;
 
-    --Content-Image-Radius: ;
+    --Content-Image-Radius: 10px;
 
 }

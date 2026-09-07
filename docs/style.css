@@ -179,12 +179,14 @@ header {
   font-size: var(--Content-Header2-Size);
   font-weight: var(--Content-Header2-Weight);
   margin: var(--Content-Header2-MarginTop), 0, var(--Content-Header2-MarginBottom);
+  color: var(--Content-Header-Colour);
 }
 
 .content h3 {
   font-size: var(--Content-Header3-Size);
   font-weight: var(--Content-Header3-Weight);
   margin: var(--Content-Header3-MarginTop), 0, var(--Content-Header3-MarginBottom);
+  color: var(--Content-Header-Colour);
 }
 
 .content p {
@@ -192,6 +194,7 @@ header {
   line-height: 1.6;
   color: var(--Content-Paragraph-Colour);
   max-width: var(--Content-Paragraph-MaxWidth);
+  font-weight: var(--Content-Paragraph-Weight);
   margin-bottom: var(--Content-Paragraph-MarginBottom);
 }
 
