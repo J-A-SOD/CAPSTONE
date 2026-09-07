@@ -19,31 +19,13 @@
 }
 
 body {
-  background:
-    radial-gradient(ellipse 100vw 50vh at 50% -10%, var(--BgColour01), transparent 100%),
-    var(--BgColour02);
   min-height: 100vh;
   font-family: Satoshi;
-  color: #ece8ec;
+  background: var(--BaseColour);
+  color: #ffffff;
 }
 
-/* Background Image */
 
-.bg-image {
-  position: fixed;
-  inset: 0;
-  background: url(./assets/images/bg_texture.jpg) center / cover no-repeat;
-  filter: contrast(0.8);
-  z-index: -2;
-}
-
-.bg-overlay {
-  position: fixed;
-  inset: 0;
-  background: radial-gradient(ellipse 100vw 60vh at 50% 10%, var(--BgColour01), transparent 100%), var(--BgColour02);
-  mix-blend-mode: overlay;
-  z-index: -1;
-}
 
 /* Header Styles */
 
@@ -54,7 +36,8 @@ header {
   gap: 28px;
   padding: 16px 28px;
   border: var(--HeaderBorderThickness) solid var(--HeaderBorderColour);
-  background: var(--HeaderFill);
+  position: relative;
+  overflow: hidden;
   backdrop-filter: blur(var(--HeaderBlur));
 }
 
@@ -124,8 +107,11 @@ header {
   backdrop-filter: blur(var(--SidebarBlur));
   padding: 24px 16px;
   border-radius: var(--SidebarRadius);
-  border: var(--SidebarLineWidth) solid var(--SidebarLineColour);
+  border: var(--SidebarBorderWidth) solid var(--SidebarBorderColour);
   min-height: calc(100vh - 80px);
+
+  position: relative;
+  overflow: hidden;
 }
 
 .nav-group {
@@ -168,7 +154,18 @@ header {
 
 .content {
   font-family: var(--Content-Font);
-  padding: 20px;
+  flex: 1;
+  margin: 0px;
+  padding: 32px;
+  min-width: 0;
+  border-style: solid;
+  border-width: var(--Content-BorderWeight);
+  border-color: var(--Content-BorderColour);
+  border-radius: var(--Content-Radius);
+  backdrop-filter: blur(var(--Content-Blur));
+
+  position: relative;
+  overflow: hidden;
 }
 
 .content h1 {
@@ -280,4 +277,43 @@ header {
   max-width: 100%;
   border-radius: var(--Content-Image-Radius);
   margin-bottom: 16px;
+}
+
+/* TRIMMING BG IMAGE */
+
+  header::before,
+.sidebar::before,
+.content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: url("./assets/images/bg_texture.jpg") center / cover no-repeat fixed;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--HeaderBackground);
+  backdrop-filter: blur(var(--HeaderBlur));
+}
+
+.sidebar::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--SidebarBackground);
+  backdrop-filter: blur(var(--SidebarBlur));
+}
+
+.content::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--ContentBackground);
+  backdrop-filter: blur(var(--Content-Blur));
 }

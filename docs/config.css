@@ -3,11 +3,12 @@
 :root {
     
     /* CONSTANTS */
-    --BgColour01: hsl(283, 57%, 46%);
-    --BgColour02: hsl(137, 35%, 58%);
+    --BaseColour: hsla(0, 47%, 47%, 0.545);
+    --HeaderBackground: hsla(90, 85%, 47%, 0.403);
+    --ContentBackground: hsla(266, 49%, 48%, 0.752);
+    --SidebarBackground: hsla(0, 73%, 49%, 0.405) ;
 
     /* HEADER VALUES */
-    --HeaderFill: hsla(90, 85%, 47%, 0.403);
     --HeaderBorderRadius: 10px;
     --HeaderBorderColour: hsl(0, 61%, 49%);
     --HeaderBorderThickness: 2px;
@@ -27,8 +28,8 @@
     /* Sidebar */
     --SidebarWidth: 20vw;
     --SidebarBlur: 20px;
-    --SidebarLineWidth: 2px;
-    --SidebarLineColour: hsl(0, 11%, 54%);
+    --SidebarBorderWidth: 2px;
+    --SidebarBorderColour: hsl(0, 11%, 54%);
     --SidebarRadius: 20px;
 
     --SubtitleFont: "Zodiak";
@@ -48,7 +49,12 @@
 
     /* MD Content text formatting and styles*/
     --Content-Font: "Satoshi";
-    
+    --Content-BorderWeight: 10px;
+    --Content-BorderColour: hsl(301, 71%, 48%);
+    --Content-Radius: 20px;
+
+    --Content-Blur: 8px;
+
     --Content-Header-Colour: ;
 
     --Content-Header1-Size: ;
