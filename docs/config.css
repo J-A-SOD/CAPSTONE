@@ -90,7 +90,18 @@
     --Content-Blockquote-MarginBottom: ;
     --Content-Blockquote-Colour: ;
 
+    --Content-Table-Width: ;
+    --Content-Table-MarginBottom: ;
+    --Content-Table-FontSize: ;
+    
+    --Content-Table-BorderThickness: ;
+    --Content-Table-BorderColour: ;
+    --Content-Table-Background: ;
+    --Content-Table-HeaderWeight: ;
 
+    --Content-List-Colour: ;
+    --Content-List-FontSize: ;
 
+    --Content-Image-Radius: ;
 
 }
