@@ -114,7 +114,7 @@ header {
 
 /* Main Content Styles */
 
-.content {
+.side-content {
   display: flex;
 }
 
@@ -123,8 +123,9 @@ header {
   flex-shrink: 0;
   backdrop-filter: blur(var(--SidebarBlur));
   padding: 24px 16px;
-  border-right: var(--SidebarLineWidth) solid var(--SidebarLineColour);
-  min-height: calc(100vh - 68px);
+  border-radius: var(--SidebarRadius);
+  border: var(--SidebarLineWidth) solid var(--SidebarLineColour);
+  min-height: calc(100vh - 80px);
 }
 
 .nav-group {
@@ -162,3 +163,4 @@ header {
   color: var(--LinkActiveColour);
   font-weight: 900;
 }
+

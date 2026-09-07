@@ -29,6 +29,7 @@
     --SidebarBlur: 20px;
     --SidebarLineWidth: 2px;
     --SidebarLineColour: hsl(0, 11%, 54%);
+    --SidebarRadius: 20px;
 
     --SubtitleFont: "Zodiak";
     --SubtitleFontSize: 20px;
