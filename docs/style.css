@@ -247,28 +247,28 @@ header {
 
 .content table {
   border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 16px;
-  font-size: 14px;
+  width: var(--Content-Table-Width);
+  margin-bottom: var(--Content-Table-MarginBottom);
+  font-size: var(--Content-Table-FontSize);
 }
 
 .content th,
 .content td {
-  border: 1px solid rgba(255,255,255,0.08);
+  border: var(--Content-Table-BorderThickness) solid var(--Content-Table-BorderColour);
   padding: 8px 12px;
   text-align: left;
 }
 
 .content th {
-  background: rgba(255,255,255,0.03);
-  font-weight: 600;
+  background: var(--Content-Table-Background);
+  font-weight: var(--Content-Table-HeaderWeight);
 }
 
 .content ul,
 .content ol {
   margin: 0 0 16px 20px;
-  color: #b0b0b8;
-  font-size: 14px;
+  color: var(--Content-List-Colour);
+  font-size: var(--Content-List-FontSize);
   line-height: 1.6;
 }
 
@@ -278,6 +278,6 @@ header {
 
 .content img {
   max-width: 100%;
-  border-radius: 8px;
+  border-radius: var(--Content-Image-Radius);
   margin-bottom: 16px;
 }
