@@ -37,6 +37,14 @@ Developement
 
 tech doc goes here
 
+This site is hosted on github pages, and is included in the project repo.
+
+Site files are organised via:
+
+Index.html
+Style.css
+Config.css
+
 
 ## Design Documentation
 

@@ -1,7 +1,19 @@
+/* USE THIS FILE TO EDIT GENERAL SITE AESTHETICS QUICKER */
+
 :root {
     
+    /* CONSTANTS */
+    --BgColour01: hsl(284, 54%, 18%);
+    --BgColour02: hsl(260, 13%, 9%);
+
     /* HEADER VALUES */
-    --AAA: hsl(0, 61%, 49%);
+    --HeaderFill: hsla(91, 25%, 55%, 0.1);
+    --HeaderBorderColour: hsl(0, 61%, 49%);
+    --HeaderBorderThickness: 2px;
+    --HeaderBlur: 8px;
+    --HeaderFont: Satoshi;
+    --HeaderFontWeight: 400;
+    --HeaderFontSize: 16px;
 
     /* ASCII PREVIEW SCREEN */
     --XXX: hsl(0, 100%, 100%);

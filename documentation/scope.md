@@ -74,3 +74,11 @@ Deliverables
         Auditory connection to this
     Scenes/Levels
     Tech?
+
+## Planned Story
+
+|Scene #|Title|Type|Notes|
+|---|---|---|---|
+|00-A|Opening Area|Freeroam|Tutorial Area|
+|01-A|Title Cutscene|Cutscene|Features Track 01|
+|01-B|Area 01|Cutscene||

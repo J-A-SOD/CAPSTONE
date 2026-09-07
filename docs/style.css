@@ -1,4 +1,63 @@
+/* Add any other desired fonts here */
+
 @font-face {
   font-family: "Satoshi";
-  src: url("assets/fonts/Satoshi-Variable.woff2") format("woff2");
+  src: url("./assets/fonts/Satoshi-Variable.woff2") format("woff2");
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:
+    radial-gradient(ellipse 100vw 50vh at 50% -10%, var(--BgColour01), transparent 100%),
+    var(--BgColour02);
+  min-height: 100vh;
+  font-family: Satoshi;
+  color: #ece8ec;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 28px;
+  border-bottom: var(--HeaderBorderThickness) solid var(--HeaderBorderColour);
+  background: var(--HeaderFill);
+  backdrop-filter: blur(var(--HeaderBlur));
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--HeaderFont);
+  gap: 10px;
+  font-size: var(--HeaderFontSize);
+  font-weight: var(--HeaderFontWeight);
+  white-space: nowrap;
+  color: #e8e8ec;
+}
+
+.logo-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #7c7ce6, #4c4ca8);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.logo-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
