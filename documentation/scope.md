@@ -79,6 +79,10 @@ Deliverables
 
 |Scene #|Title|Type|Notes|
 |---|---|---|---|
-|00-A|Opening Area|Freeroam|Tutorial Area|
-|01-A|Title Cutscene|Cutscene|Features Track 01|
-|01-B|Area 01|Cutscene||
+|01-A|Opening Area|Freeroam|Tutorial Area|
+|01-B|Title Cutscene|Cutscene|Features Track 01|
+|02-B|Area 02|Cutscene||
+|03-B|Area 03|Cutscene||
+|01-B|Area 04|Cutscene||
+|01-B|Area 05|Cutscene||
+|01-B|Area 06|Freeroam|Creat your own soundtrack|

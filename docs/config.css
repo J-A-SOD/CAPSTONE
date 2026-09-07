@@ -7,11 +7,14 @@
     --BgColour02: hsl(260, 13%, 9%);
 
     /* HEADER VALUES */
-    --HeaderFill: hsla(91, 25%, 55%, 0.1);
+    --HeaderFill: hsla(90, 85%, 47%, 0.403);
     --HeaderBorderColour: hsl(0, 61%, 49%);
     --HeaderBorderThickness: 2px;
     --HeaderBlur: 8px;
     --HeaderFont: Satoshi;
+    --HeaderFontWeight: 400;
+    --HeaderFontSize: 16px;
+
     --HeaderFontWeight: 400;
     --HeaderFontSize: 16px;
 
